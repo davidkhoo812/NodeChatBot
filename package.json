@@ -1,0 +1,191 @@
+{
+  "name": "steam-chat-bot",
+  "homepage": "https://steam-chat-bot.github.io/node-steam-chat-bot",
+  "version": "2.4.0-beta",
+  "bugs": {
+    "url": "http://github.com/steam-chat-bot/node-steam-chat-bot/issues"
+  },
+  "description": "Simplified interface for a steam chat bot with lots of built-in functionality",
+  "keywords": [
+    "steam",
+    "steamrep",
+    "chatbot",
+    "cleverbot",
+    "youtube",
+    "tumblr",
+    "google",
+    "currency",
+    "logging",
+    "chat",
+    "reddit",
+    "/r/steamgameswap",
+    "pushbullet",
+    "logs",
+    "IMDB",
+    "relay",
+    "IRC",
+    "discord"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "See contributors",
+    "email": "not@given.com",
+    "url": "https://github.com/steam-chat-bot/node-steam-chat-bot/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "Paul Schow",
+      "email": null,
+      "url": "https://github.com/paulschow",
+      "contributions": 1,
+      "additions": 54,
+      "deletions": 0,
+      "hireable": true
+    },
+    {
+      "name": "Divinux",
+      "email": "Divinux@gmx.de",
+      "url": "https://github.com/Divinux",
+      "contributions": 2,
+      "additions": 215,
+      "deletions": 4,
+      "hireable": null
+    },
+    {
+      "name": "John",
+      "email": "jmcortinax@users.noreply.github.com",
+      "url": "https://github.com/JMCortinax",
+      "contributions": 2,
+      "additions": 8,
+      "deletions": 2,
+      "hireable": null
+    },
+    {
+      "name": "Houston",
+      "email": "dungdung@users.noreply.github.com",
+      "url": "https://github.com/dungdung",
+      "contributions": 11,
+      "additions": 740,
+      "deletions": 861,
+      "hireable": null
+    },
+    {
+      "name": "bonnici",
+      "email": "lljksteveholt@gmail.com",
+      "url": "https://github.com/bonnici",
+      "contributions": 31,
+      "additions": 4397,
+      "deletions": 915,
+      "hireable": null
+    },
+    {
+      "name": "Kyle Smith",
+      "email": "smith.kyle1734@gmail.com",
+      "url": "https://github.com/dragonbanshee",
+      "contributions": 117,
+      "additions": 3158,
+      "deletions": 1824,
+      "hireable": null
+    },
+    {
+      "name": "Efreak",
+      "email": "github@efreakbnc.net",
+      "url": "https://github.com/Efreak",
+      "contributions": 582,
+      "additions": 21212,
+      "deletions": 11583,
+      "hireable": true
+    },
+    {
+      "name": "Esbeckett",
+      "email": "esbeckett@users.noreply.github.com",
+      "url": "https://github.com/Esbeckett",
+      "contributions": 4,
+      "additions": 144,
+      "deletions": 71,
+      "hireable": null
+    },
+    {
+      "name": "lostandconfused",
+      "email": null,
+      "url": "https://github.com/lostandconfused",
+      "contributions": 2,
+      "additions": 4,
+      "deletions": 3,
+      "hireable": null
+    }
+  ],
+  "main": "./lib/chatBot",
+  "scripts": {
+    "example": "node ./examples/example.js",
+    "example-firebase": "node ./examples/example-firebase.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steam-chat-bot/node-steam-chat-bot.git"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.10.0",
+    "express-winston": "^0.4.1",
+    "html-entities": "^1.2.0",
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^3.10.1",
+    "qs": "^6.0.1",
+    "steam": "^1.3.0",
+    "steam-trade": "git://github.com/seishun/node-steam-trade.git",
+    "steam-web-api": "^0.0.1",
+    "steam-web-api-key": "^0.0.1",
+    "steam-weblogon": "^0.0.3",
+    "winston": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "accounting": "^0.4.1",
+    "body-parser": "^1.14.2",
+    "cleverbot-node": "^0.2.1",
+    "coinbase": "^2.0.0",
+    "dotenv": "^1.1.0",
+    "eris": "abalabahaha/eris",
+    "express-session": "^1.11.3",
+    "filendir": "0.0.1",
+    "firebase": "^2.2.6",
+    "fireproof": "^3.0.3",
+    "github-webhook-handler": "^0.6.0",
+    "google": "^1.0.0",
+    "google-images": "0.1.x",
+    "irc": "^0.4.1",
+    "lodash.clonedeep": "^3.0.2",
+    "mathjs": "^2.2.0",
+    "mediawiki": "0.0.14",
+    "mkdirp": "^0.5.0",
+    "moment": "^2.14.1",
+    "money": "^0.2.0",
+    "node-localstorage": "^1.3.0",
+    "nodemailer": "^1.3.4",
+    "nodemailer-sendmail-transport": "^1.0.0",
+    "omdb": "^0.7.0",
+    "pushbullet": "^1.4.3",
+    "pushover-notifications": "^0.2.2",
+    "random-js": "^1.0.8",
+    "request": "^2.61.0",
+    "roll": "^1.0.0",
+    "sanitize-filename": "^1.6.0",
+    "serve-index": "^1.8.0",
+    "session-file-store": "0.0.24",
+    "sinon": "^1.16.1",
+    "socket.io": "^1.4.8",
+    "sqlite3": "^3.1.4",
+    "steam-login": "^0.1.3",
+    "steamid": "^0.3.1",
+    "tinycache": "^1.1.0",
+    "touch": "^1.0.0",
+    "tumblr.js": "0.0.x",
+    "ueberDB": "^0.2.7",
+    "when": "^3.7.7",
+    "youtube-api": "^1.0.1"
+  },
+  "engines": {
+    "node": "^5.2.0",
+    "npm": "^3.3.12"
+  }
+}
